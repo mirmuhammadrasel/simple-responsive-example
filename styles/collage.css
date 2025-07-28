@@ -22,3 +22,22 @@ img{
     /* *imp* */
     gap: 5px;
 }
+/* Responsive Media Query  */
+@media screen and (max-width:576px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+        /* auto deyar karone chobigulh perfectly fit hoicey jar jar jaygay konotar niche chobir kono part addd hoynai */
+    }
+    .square-collage{
+        grid-template-columns: 1fr;
+    }   
+}
+
+/* Medium devices */
+@media screen and (min-width:577px) and (max-width:992px) {
+     .row{
+        flex-direction: column;
+        height: auto;
+     }
+}
